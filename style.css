@@ -2,7 +2,7 @@ body {
     margin-top: 10px;
 
 }
-.btn {
+#btnA #btnB {
    margin-left: 10px;
     
 }
@@ -14,5 +14,9 @@ h2 {
 }
 .thead{
     padding-left: 100px;
+    color: mediumblue;
 
+}
+nav {
+    background-color: aquamarine;
 }

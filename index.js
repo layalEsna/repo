@@ -13,10 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const btnB = document.getElementById('btnB');
+/*const btnB = document.getElementById('btnB');
 btnB.addEventListener('click', () => {
     window.location.href = './home.html';
+});*/
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btnC = document.getElementById('btnB');
+    btnB.addEventListener('click', () => {
+        window.location.href = './home.html';
+    });
 });
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const btnC = document.getElementById('btnC');

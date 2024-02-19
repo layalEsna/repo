@@ -1,10 +1,7 @@
 body {
     margin-top: 10px;
+    background-color: bisque;
 
-}
-#btnA #btnB {
-   margin-left: 10px;
-    
 }
 h2 {
     margin-left: 100px;
@@ -14,9 +11,20 @@ h2 {
 }
 .thead{
     padding-left: 100px;
-    color: mediumblue;
+   
 
 }
 nav {
     background-color: aquamarine;
 }
+.para {
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+    padding-left: 100px;
+}
+ #btnA #btnB{
+    margin-left: 30px;
+    
+     
+ }

@@ -1,12 +1,4 @@
-/*const btnA = document.getElementById('btnA')
-btnA.addEventListener('click', ()=>{
-    window.location.href = 'about.html'
-})
-
-const btnB= document.getElementById('btnB')
-btnB.addEventListener('click', ()=>{
-    window.location.href = 'home.html'
-})
+/*
 
 const btnA = document.getElementById('btnA');
 btnA.addEventListener('click', () => {
@@ -25,3 +17,11 @@ const btnB = document.getElementById('btnB');
 btnB.addEventListener('click', () => {
     window.location.href = './home.html';
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btnC = document.getElementById('btnC');
+    btnC.addEventListener('click', () => {
+        window.location.href = './3thPage.html';
+    });
+});
+

@@ -34,3 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function changeColor(){
+    const paras = document.getElementsByClassName('para')
+    for(const para of paras){
+        para.style.backgroundColor = 'lightblue'
+    }
+}
+
+function resetColor(){
+    const paras = document.getElementsByClassName('para')
+    for(const para of paras){
+        para.style.backgroundColor = 'darkslateblue'
+    }
+}

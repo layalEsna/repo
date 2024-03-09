@@ -19,7 +19,7 @@ btnB.addEventListener('click', () => {
 });*/
 
 document.addEventListener('DOMContentLoaded', () => {
-    const btnC = document.getElementById('btnB');
+    const btnB = document.getElementById('btnB');
     btnB.addEventListener('click', () => {
         window.location.href = './home.html';
     });
@@ -34,16 +34,41 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function changeColor(){
+function changeColor() {
     const paras = document.getElementsByClassName('para')
-    for(const para of paras){
+    for (const para of paras) {
         para.style.backgroundColor = 'lightblue'
     }
 }
 
-function resetColor(){
+function resetColor() {
     const paras = document.getElementsByClassName('para')
-    for(const para of paras){
-        para.style.backgroundColor = 'darkslateblue'
+    for (const para of paras) {
+        para.style.backgroundColor = 'lightgray'
     }
 }
+
+
+function togg() {
+    const tog = document.getElementById('tog')
+
+    if (tog.style.display === 'none' || tog.style.display === '') {
+        tog.style.display = 'block'
+        tog.textContent = 'Turn it on!'
+
+    } else {
+        tog.style.display = 'none'
+        tog.textContent = 'Turn it off!'
+
+    }
+
+}
+
+const homeBtn = document.querySelector('.homeBtn')
+const homeSp = document.querySelector('.homeSp')
+
+function revealSp() {
+    homeSp.classList.toggle('visible')
+}
+
+homeBtn.addEventListener('click', revealSp)

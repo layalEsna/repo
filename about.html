@@ -1,20 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h2>About</h2>
     <div>
         <nav>
             <table>
-                <th class="thead"><h3>About</h3></th>
+                <th class="thead">
+                    <h3>About</h3>
+                </th>
                 <th><button id="btnB">Home</button></th>
-               
+
                 <th><button id="btnC">some thing</button></th>
             </table>
         </nav>
@@ -22,6 +25,11 @@
     <div>
         <p class="para" onmouseover="changeColor()" onmouseout="resetColor()">About world!</p>
     </div>
+    <div>
+        <p id="tog">Turn it off!</p>
+        <button onclick="togg()">On/Off</button>
+    </div>
     <script src="index.js" defer></script>
 </body>
+
 </html>
